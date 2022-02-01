@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -25,7 +26,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -71,7 +73,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"adress\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"newName\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"newNumber\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"newAdress\",\"type\":\"string\"}],\"name\":\"set\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Note.sol\":\"Note\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Note.sol\":{\"keccak256\":\"0xd328e7d54dfee6e7288caf4280063b461a15a4c02177a8dbd28a19fa90c6a6f2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://48fd2d5f47ff8d4f58049c28e0a673080e2fcafb249a203f06139b59f036f3fc\",\"dweb:/ipfs/QmaZgG2mtRhKrhFE7UDHh64GPfP5VGctEQH9btVd26khYK\"]}},\"version\":1}",
@@ -4643,12 +4646,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xe1054B8003F213413762745789D5033886c4F9E8",
-      "transactionHash": "0xf654ca31de24ca85ea0a4f2b452e8ebe624117c4f7bac0bea3dd057c6d6bfb68"
+      "address": "0xc4AEB10614e7E127C9016220b8EBE881B0C2c4Bf",
+      "transactionHash": "0x3b241bd8e6751306d85f48e4f09710148139bac8b0741c3333d304d2c925effd"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-28T20:01:06.575Z",
+  "updatedAt": "2022-02-01T11:57:06.863Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
